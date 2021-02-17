@@ -3,13 +3,13 @@
     "contentVersion": "1.0.0.0",
     "parameters": {
         "virtualNetworkId": {
-            "value": "VNet1" // TODO: Fill in parameter value
+            "value": "VNet1"
         },
         "subnetName": {
-            "value": "Subnet-2" // TODO: Fill in parameter value
+            "value": "Subnet-2"
         },
         "vnetResourceGroup": {
-            "value": "CloudWorkshop" // TODO: Fill in parameter value
+            "value": "CloudWorkshop"
         },
         "virtualMachineName": {
             "value": "Web-SVR-user2-biz"
@@ -24,16 +24,16 @@
             "value": "contoso.local"
         },
         "domainUsername": {
-            "value": "domainAdmin" // TODO: Fill in parameter value
+            "value": "domainAdmin"
         },
         "domainPassword": {
-            "value": "Password...1" // TODO: Fill in parameter value
+            "value": "Password...1"
         },
         "adminUsername": {
             "value": "AzureUser"
         },
         "adminPassword": {
-            "value": "Password...1" // TODO: Fill in parameter value
+            "value": "Password...1"
         }
     }
 }
