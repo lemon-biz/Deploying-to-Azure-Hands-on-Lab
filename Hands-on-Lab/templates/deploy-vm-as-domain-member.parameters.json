@@ -1,0 +1,39 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "virtualNetworkId": {
+            "value": "VNet1" // TODO: Fill in parameter value
+        },
+        "subnetName": {
+            "value": "Subnet-2" // TODO: Fill in parameter value
+        },
+        "vnetResourceGroup": {
+            "value": "user2" // TODO: Fill in parameter value
+        },
+        "virtualMachineName": {
+            "value": "Web-SVR-user2-biz"
+        },
+        "windowsOSVersion": {
+            "value": "2019-Datacenter"
+        },
+        "virtualMachineSize": {
+            "value": "Standard_DS1_v2"
+        },
+        "domainToJoin": {
+            "value": "contoso.local"
+        },
+        "domainUsername": {
+            "value": "domainAdmin" // TODO: Fill in parameter value
+        },
+        "domainPassword": {
+            "value": "Password...1" // TODO: Fill in parameter value
+        },
+        "adminUsername": {
+            "value": "AzureUser"
+        },
+        "adminPassword": {
+            "value": "Password...1" // TODO: Fill in parameter value
+        }
+    }
+}
